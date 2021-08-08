@@ -12,7 +12,6 @@
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
 <body>
 	<div class="main_container">
@@ -57,14 +56,12 @@
 					<button class=" butn btn btn-light">Find Gold!</button>
 				</form>
 			</div>
-
 		</div>
 		<p class="act_word">Activities:</p>
 		<div class="activities">
 			<p style="color : ${color}">${fn:replace(comment,"%*n", "<br />")}</p>
 		</div>
 		<a href="/reset" class="btn btn-danger float-right mt-3 mb-5 mr-3">Reset!</a>
-
 	</div>
 </body>
 </html>
